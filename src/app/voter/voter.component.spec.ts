@@ -1,4 +1,4 @@
-import { votercomponent } from './voter.component';
+import { VoterComponent } from './voter.component';
 
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
@@ -6,16 +6,16 @@ import { Component } from '@angular/core/src/metadata/directives';
 import { Testability } from '@angular/core/src/testability/testability';
 
 describe('Integration tests - VoterComponent', () => {
-  let component : votercomponent;
-  let fixture : ComponentFixture<votercomponent>;
+  let component : VoterComponent;
+  let fixture : ComponentFixture<VoterComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations : [ votercomponent ]
+      declarations : [ VoterComponent ]
     });
 
     
-    fixture = TestBed.createComponent(votercomponent);
+    fixture = TestBed.createComponent(VoterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,12 +1,12 @@
-import { votercomponent } from './voter.component'; 
+import { VoterComponent } from './voter.component'; 
 //import { exec } from 'child_process';
 
 describe('Unit test - VoterComponent', () => {
-  let component : votercomponent;
+  let component : VoterComponent;
   
   beforeEach(() => {
     // arrange
-    component = new votercomponent();
+    component = new VoterComponent();
    });
 
   it('should increment totalVotes when upvoted', () => {
